@@ -1,0 +1,99 @@
+*,*:before, *:after{
+	box-sizing: border-box;
+}
+body{
+font: 14px/1.3 Arial,sans-serif;
+background-color: #f1f1f1;
+color: #c2c2c2;
+font-family: Arial, sans-serif;
+}
+.ba-container{
+max-width:1000px;
+margin: 0 auto;
+padding: 0 20px;
+}
+.ba-search-form [type="submit"] {
+display: inline-block;
+/*-webkit-appearance: textfield;*/
+width: 80px;
+height:80px;
+background: url("../huge-search-img/img/magnifier.svg") 50% no-repeat;/*обовязково для кнопок*/
+border: none;/*обовязково для кнопок*/
+
+background-size: 50px;
+
+border: none;
+}
+
+/*.ba-heage-search-submit{
+	width: 80px;
+	height:80px;
+	background: url (../img/fmagnifier.svg) 50% no-repeat;
+}*/
+
+.ba-search-columns1{
+display:inline-block;
+width:300px;
+vertical-align:top;
+background-color:#f1f1f1;
+list-style: none;
+border-radius: 100px;
+
+/*padding:0px 200px 0px 0px;*/
+}
+.ba-search-columns2{
+display:inline-block;
+margin: 0 auto;
+/*padding:0px 200px 100px 100px;*/
+width: 300px;
+background-color:#f1f1f1;
+/*padding:15px;*/
+vertical-align:top;
+}
+.ba-search-columns3{
+display:inline-block;
+padding: -250px 200px 20px;
+width: 300px;/*ширина блока*/
+background-color:#f1f1f1;
+vertical-align:top;
+
+}
+ /*padding:15px;*//* vertical-align:top;*/
+h3 {display:inline-block;
+	margin: 0;
+	font-size: 13px;/*важливо*/
+	vertical-align: middle;
+	padding-bottom: 40px;
+}
+
+.ba-search1 {
+    width: 800px;
+    height:80px;
+    font-size: 95px;
+    border: 0;
+    background-color: #F1F1F1;
+    font-weight: 600;/*жырный шрифт*/
+    }
+    li{
+    	background-color: #EBEBED;
+
+    }
+a{
+	color:#000;
+	text-decoration: none;
+	display: block;
+	border:5px solid #F1F1F1;
+}
+a:hover{
+	color:#CE898F;
+	background-color: #E4E4E6;
+}
+.ba-search-list{
+list-style: none;
+}
+h2{
+	padding-left: 45px;
+}
+.ba-search-columns1 img {
+	border-radius: 100px;
+}
