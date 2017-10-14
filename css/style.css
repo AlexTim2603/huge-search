@@ -38,8 +38,8 @@ vertical-align:top;
 background-color:#f1f1f1;
 list-style: none;
 border-radius: 100px;
-
-/*padding:0px 200px 0px 0px;*/
+color: #C3C3C5;
+/* padding:0px 200px 0px 0px;*/
 }
 .ba-search-columns2{
 display:inline-block;
@@ -96,4 +96,5 @@ h2{
 }
 .ba-search-columns1 img {
 	border-radius: 100px;
+	color: #C3C3C5;
 }
